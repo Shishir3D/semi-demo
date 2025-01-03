@@ -17,6 +17,10 @@ Route::get('/contacts', function () {
 });
 
 Route::post('/contact', [ContactController::class, 'store']);
+Route::get('/shop', function () {
+    return view('pages.shop');
+});
+
 
 Route::post('/newsletter', [NewsletterController::class, 'store']);
 

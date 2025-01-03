@@ -10,6 +10,10 @@
                 'route' => '/about',
             ],
             [
+                'name' => 'shop',
+                'route' => '/shop',
+            ],
+            [
                 'name' => 'contacts',
                 'route' => '/contacts',
             ],

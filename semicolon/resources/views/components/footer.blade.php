@@ -1,4 +1,4 @@
-<footer class="bg-[#D4E6C2] py-10 mt-16">
+<footer class="bg-[#D4E6C2] py-10">
     @php
         $nav = [
             [

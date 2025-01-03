@@ -1,12 +1,22 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.landing');
 });
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+Route::get('/contacts', function () {
+    return view('pages.contact');
+});
+
+Route::post('/contact', [ContactController::class, 'store']);
 
 Route::post('/newsletter', [NewsletterController::class, 'store']);
 

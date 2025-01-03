@@ -8,6 +8,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/shop', function () {
+    return view('pages.shop');
+});
+
+
 Route::post('/newsletter', [NewsletterController::class, 'store']);
 
 Route::get('/dashboard', function () {

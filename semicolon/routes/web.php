@@ -20,6 +20,9 @@ Route::post('/contact', [ContactController::class, 'store']);
 Route::get('/shop', function () {
     return view('pages.shop');
 });
+Route::get('/shop-detail', function () {
+    return view('pages.shop-detail');
+});
 
 
 Route::post('/newsletter', [NewsletterController::class, 'store']);

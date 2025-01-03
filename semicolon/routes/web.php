@@ -9,6 +9,8 @@ Route::get('/', function () {
     return view('pages.landing');
 });
 
+Route::view('/plant-recommendation', 'pages.plant-recommendation');
+
 Route::get('/about', function () {
     return view('pages.about');
 });

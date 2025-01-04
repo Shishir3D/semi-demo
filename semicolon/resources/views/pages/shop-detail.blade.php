@@ -39,8 +39,13 @@
 <div className="card2" class="max-w-screen-xl mx-auto border-solid border-0 border-green-500 rounded-lg shadow-lg mt-10 flex-col p-10">
     <p class="text-2xl font-bold">Products detail of {{$name}}</p>
     <br>
-    <p>• Wheat is one of the oldest and most widely cultivated cereal grains in the world. It is a staple food for billions of people, providing a significant source of carbohydrates. The grain is primarily grown in temperate regions, with major producers including China, India, Russia, and the United States. Wheat is used to make a variety of products, including bread, pasta, and cereals, contributing to global food security. The plant belongs to the genus Triticum and has several species, including hard and soft wheat varieties.</p>
+    <p>• Wheat is one of the oldest and most widely cultivated cereal grains in the world. It is a staple food for billions of people, providing a significant source of carbohydrates.</p>
+    <p>• The grain is primarily grown in temperate regions, with major producers including China, India, Russia, and the United States. </p>
+    <p>• Wheat is used to make a variety of products, including bread, pasta, and cereals, contributing to global food security.</p>
+    <p>• The plant belongs to the genus Triticum and has several species, including hard and soft wheat varieties.</p>
+    <br>
     <hr class="m-4 border-gray-400">
+    <br>
     <p class="font-bold">Specification of {{$name}}</p>
     <br>
     <div class="flex w-1/2 justify-start gap-40">

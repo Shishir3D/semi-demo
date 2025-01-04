@@ -10,25 +10,28 @@
 @php
     $datas = [
         [
-            'name' => 'Organic Rice',
+            'name' => 'Organic Wheat',
             'image' => 'images/shop_images/wheat.jpg',
             'price' => 'RS: 4000',
             'itemsSold' => '140',
-            'rating' => '★★★★'
+            'rating' => '★★★★',
+            'description' => 'Wheat is a widely cultivated cereal grain, rich in carbohydrates and a primary ingredient in bread, pasta, and many other staple foods.'
 ],
 [
-            'name' => 'Organic Rice',
+            'name' => 'Organic Millet',
             'image' => 'images/shop_images/wheat.jpg',
-            'price' => 'RS: 4000',
+            'price' => 'RS: 5000',
             'itemsSold' => '150',
-            'rating' => '★★★'
+            'rating' => '★★★',
+            'description' => 'Millet is a nutritious, gluten-free whole grain known for its high fiber content and versatility in cooking.'
 ],
 [
-            'name' => 'Organic Rice',
+            'name' => 'Organic Barley',
             'image' => 'images/shop_images/wheat.jpg',
-            'price' => 'RS: 4000',
-            'itemsSold' => '140',
-            'rating' => '★★★★'
+            'price' => 'RS: 6000',
+            'itemsSold' => '160',
+            'rating' => '★★★★★',
+            'description' => 'Barley is a nutritious, gluten-free whole grain known for its high fiber content and versatility in cooking.'
 ],
 [
             'name' => 'Organic Rice',

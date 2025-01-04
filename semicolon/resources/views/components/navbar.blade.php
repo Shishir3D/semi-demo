@@ -2,7 +2,7 @@
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             {{-- <img src="{{ asset('images/logo.png') }}" class="h-8 invert" alt="AgriMandu Logo"> --}}
-            <img src="{{ asset('images/agrimandu-logo.png') }}" class="h-8 invert" alt="AgriMandu Logo">
+            <img src="{{ asset('images/AgrimanduLogo.png') }}" class="h-8" alt="AgriMandu Logo">
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <form class="hidden lg:flex flex-1 items-center justify-end" method="POST" action="/search">

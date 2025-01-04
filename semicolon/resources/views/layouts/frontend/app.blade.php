@@ -9,6 +9,8 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     @vite('resources/css/app.css')
 
+    @yield('head')
+
     {{-- fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +23,8 @@
         @yield('content')
     </div>
     <x-footer />
+    @yield('styles')
+    @yield('scripts')
 </body>
 
 </html>

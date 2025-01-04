@@ -27,17 +27,33 @@
         <section id="products" class="mb-12">
             <h2 class="text-3xl font-semibold text-center mb-8">Our Featured Products</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                @foreach (range(1, 3) as $index)
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="/placeholder.svg?height=200&width=300" alt="Product {{ $index }}"
-                            class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="text-xl font-semibold mb-2">Product {{ $index }}</h3>
-                            <p class="text-gray-600 mb-4">Fresh, organic produce straight from Nepalese farms to your table.
-                            </p>
-                            <a href="#" class="text-green-500 font-semibold hover:text-green-600">Learn More</a>
-                        </div>
-                    </div>
+                @php
+                    $datas = [
+                        [
+                            'name' => 'Organic Rice',
+                            'image' => 'images/shop_images/wheat.jpg',
+                            'price' => 'RS: 4000',
+                            'itemsSold' => '140',
+                            'rating' => '★★★★',
+                        ],
+                        [
+                            'name' => 'Organic Rice',
+                            'image' => 'images/shop_images/wheat.jpg',
+                            'price' => 'RS: 4000',
+                            'itemsSold' => '150',
+                            'rating' => '★★★',
+                        ],
+                        [
+                            'name' => 'Organic Rice',
+                            'image' => 'images/shop_images/wheat.jpg',
+                            'price' => 'RS: 4000',
+                            'itemsSold' => '140',
+                            'rating' => '★★★★',
+                        ],
+                    ];
+                @endphp
+                @foreach ($datas as $data)
+                    @include('components.shop-card')
                 @endforeach
             </div>
         </section>
